@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Task3</title>
+</head>
+<body>
+<div id="app">
+		<input type="checkbox" v-model="changeColor">Сменить цвет абзаца</input>
+		<p v-bind:style="{color: changeColor ? 'red' : 'black'}">Абзац</p>
+</div>
+<script src="vue.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
