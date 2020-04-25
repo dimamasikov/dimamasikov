@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Task3</title>
+</head>
+<body>
+<div id="app">
+		<p>Рабочими теги: <span v-html="textWithTags"></span></p>
+		<p>Просто текст: {{ textWithTags }}</p>
+		<button v-on:click="showText">Вывести текст с тегами</button>
+</div>
+<script src="vue.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
