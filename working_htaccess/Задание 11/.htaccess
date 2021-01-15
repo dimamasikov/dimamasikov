@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteRule "\/.[^\d]+(\d+)\.php$" "/$1.php"
